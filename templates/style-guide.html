@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide | Mulin Zhang</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Mulin Zhang</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="style-guide.html">Style Guide</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="guide-hero">
+        <h2>Design System</h2>
+        <p>This page shows the visual style and design choices I used for my website.</p>
+    </section>
+
+    <!-- ATOMS -->
+    <section class="guide-section">
+        <h2>Atoms</h2>
+        <p class="guide-note">Basic elements such as text, links, and buttons.</p>
+
+        <div class="guide-grid">
+
+            <div class="guide-card">
+                <h3>Typography</h3>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <p>This is body text.</p>
+            </div>
+
+            <div class="guide-card">
+                <h3>Links</h3>
+                <p>This is an <a href="#">in-text link</a>.</p>
+                <nav class="demo-nav">
+                    <a href="#">Projects</a>
+                    <a href="#">About</a>
+                </nav>
+            </div>
+
+            <div class="guide-card">
+                <h3>Buttons</h3>
+                <a href="#" class="guide-btn">Explore</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MOLECULES -->
+    <section class="guide-section alt">
+        <h2>Molecules</h2>
+        <p class="guide-note">Small combinations of UI elements.</p>
+
+        <div class="guide-grid">
+
+            <div class="guide-card">
+                <h3>Project Card</h3>
+                <div class="mini-card">
+                    <h4>Game Design Project</h4>
+                    <p>Short project description.</p>
+                </div>
+            </div>
+
+            <div class="guide-card">
+                <h3>Text Box</h3>
+                <div class="mini-card">
+                    <p>This is used for About Me sections.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ORGANISMS -->
+    <section class="guide-section">
+        <h2>Organisms</h2>
+        <p class="guide-note">
+        Larger layout sections built by combining multiple components.
+        </p>
+
+        <div class="guide-card">
+            <h3>Project Grid</h3>
+
+            <p class="muted">
+                This layout is used to display multiple projects in a responsive grid.
+            </p>
+
+            <div class="demo-grid">
+                <div class="mini-card">
+                    <h4>Project Title</h4>
+                    <p>Short description.</p>
+                </div>
+
+                <div class="mini-card">
+                    <h4>Project Title</h4>
+                    <p>Short description.</p>
+                </div>
+
+                <div class="mini-card">
+                    <h4>Project Title</h4>
+                    <p>Short description.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEMPLATE -->
+    <section class="guide-section alt">
+        <h2>Template</h2>
+
+        <div class="guide-card">
+            <p>
+                The homepage is structured with a hero section, followed by projects,
+                then informational sections like About and Hobby.
+            </p>
+        </div>
+    </section>
+
+    <!-- IMAGES -->
+    <section class="guide-section">
+        <h2>Imagery</h2>
+
+        <div class="guide-grid">
+            <div class="image-placeholder">
+                <p>Hero Image<br><span class="muted">Dark atmospheric background</span></p>
+            </div>
+
+            <div class="image-placeholder">
+                <p>Project Image<br><span class="muted">Gameplay screenshot</span></p>
+            </div>
+
+            <div class="image-placeholder">
+                <p>Mood Reference<br><span class="muted">Space / cinematic style</span></p>
+            </div>
+        </div>
+    </section>
+
+   <section class="guide-section alt" id="branding">
+    <h2>Branding</h2>
+    <p class="guide-note">Type + colour + imagery direction shown together.</p>
+
+    <div class="guide-grid branding-grid">
+
+        <!-- Typography -->
+        <section class="guide-card">
+            <h3>Typography</h3>
+            <p class="muted">Headings / body / navigation / buttons.</p>
+
+            <div class="type-sample">
+                <div class="type-row">
+                    <span class="tag">H1</span>
+                    <span class="sample-h1">Mulin Zhang</span>
+                </div>
+
+                <div class="type-row">
+                    <span class="tag">H2</span>
+                    <span class="sample-h2">Design System</span>
+                </div>
+
+                <div class="type-row">
+                    <span class="tag">Body</span>
+                    <span>
+                        Calm, dark, and organized visual language for a personal portfolio website.
+                    </span>
+                </div>
+
+                <div class="type-row">
+                    <span class="tag">Nav</span>
+                    <span class="demo-nav">
+                        <a href="#">Projects</a>
+                        <a href="#">About</a>
+                        <a href="#">Style Guide</a>
+                    </span>
+                </div>
+
+                <div class="type-row">
+                    <span class="tag">Button</span>
+                    <span><a class="guide-btn" href="#">Explore My Work</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Colour palette -->
+        <section class="guide-card">
+            <h3>Colour palette</h3>
+            <p class="muted">Used to build atmosphere, contrast, and readability.</p>
+
+            <ul class="swatch-list">
+                <li><span class="swatch sw-bg"></span> Background: #121212</li>
+                <li><span class="swatch sw-section"></span> Section: #181818</li>
+                <li><span class="swatch sw-card"></span> Card: #242424</li>
+                <li><span class="swatch sw-text"></span> Main Text: #FFFFFF</li>
+                <li><span class="swatch sw-muted"></span> Muted Text: #CCCCCC</li>
+                <li><span class="swatch sw-accent"></span> Accent: #FEF7E6</li>
+            </ul>
+        </section>
+
+        <!-- Imagery -->
+        <section class="guide-card">
+            <h3>Imagery direction</h3>
+            <p class="muted">
+                Atmospheric illustration with a dark tone to create a calm and reflective mood.
+            </p>
+
+            <img src="../images/a4vbn-xhbbl.png" alt="Current hero image used in the homepage">
+        </section>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mulin Zhang</p>
+</footer>
+
+</body>
+</html>
