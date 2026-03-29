@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Shooting Game | Mulin Zhang</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Mulin Zhang's Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <div class="container">
+
+        <a href="projects.html" class="back-link">← Back to Projects</a>
+
+        <!-- Project Title -->
+        <section class="project-header">
+            <h2>2D Shooting Game</h2>
+            <p class="project-subtitle">Game Development • Processing</p>
+        </section>
+
+        <!-- Main Image -->
+        <section class="project-image-section">
+            <img src="../images/game_screenshot.png" alt="Game Screenshot">
+        </section>
+
+        <!-- Overview -->
+        <section class="project-section">
+            <h3>Overview</h3>
+            <p>
+                This project is a 2D shooting game developed in Processing.
+                The player can move in all directions and shoot enemies while avoiding damage.
+                The game includes enemy waves, boss battles, pickups, and a scoring system.
+                The goal is to survive and defeat all enemies and bosses.
+            </p>
+        </section>
+
+        <!-- Process -->
+        <section class="project-section">
+            <h3>Process</h3>
+            <p>
+                The project was developed directly in Processing, starting with basic player movement and shooting mechanics.
+                At the beginning, the game only included simple enemies moving downward, but the gameplay felt repetitive.
+            </p>
+
+            <p>
+                To improve the experience, I gradually added more systems.
+                Enemies were updated with collision detection and shooting behavior, and a scoring system was introduced.
+                Boss enemies were later added to create a stronger sense of progression and challenge.
+            </p>
+
+            <p>
+                The structure of the code was an important part of the process.
+                I designed a class system using inheritance, where a base class handled shared movement logic.
+                This allowed me to extend it into Player, Enemy, BossEnemy, and Pickup classes,
+                making the code more organized and reusable.
+            </p>
+
+            <p>
+                Throughout development, I continuously tested and refined the gameplay.
+                Mechanics such as enemy speed, bullet patterns, and difficulty scaling were adjusted multiple times
+                to improve balance and player experience.
+            </p>
+
+            <!-- UML Diagram -->
+            <div class="project-image-section">
+                <img src="../images/project2_uml.png" alt="Game UML Diagram">
+            </div>
+
+        </section>
+
+        <!-- Challenges -->
+        <section class="project-section">
+            <h3>Challenges</h3>
+            <p>
+                One of the main challenges was managing the complexity of the code as more features were added.
+                Handling interactions between players, enemies, bullets, and pickups became increasingly difficult.
+            </p>
+
+            <p>
+                To solve this, I reorganized the system using inheritance and polymorphism.
+                This allowed different objects to share behavior while maintaining their own functionality,
+                making the code easier to manage and extend.
+            </p>
+
+            <p>
+                Another challenge was balancing the gameplay.
+                Early versions were either too easy or too chaotic.
+                I adjusted enemy spawn rates, bullet speed, and boss difficulty multiple times
+                to create a more engaging experience.
+            </p>
+
+            <!-- Gameplay Images -->
+            <div class="project-image-section">
+                <img src="../images/project2_boss.png" alt="Boss gameplay">
+            </div>
+
+            <div class="project-image-section">
+                <img src="../images/Game_screenshot2.png" alt="Gameplay screenshot">
+            </div>
+
+        </section>
+
+        <!-- Design Decisions -->
+        <section class="project-section">
+            <h3>Design Decisions</h3>
+            <p>
+                The game was designed to gradually increase difficulty, allowing players to learn mechanics step by step.
+                Basic enemies introduce the gameplay, while bosses add complexity and challenge.
+            </p>
+
+            <p>
+                Pickups such as health and weapon upgrades were added to support the player and introduce strategy.
+                Visual elements such as score and health indicators help players understand their current state.
+            </p>
+        </section>
+
+        <!-- Reflection -->
+        <section class="project-section">
+            <h3>Reflection</h3>
+            <p>
+                This project helped me understand how to structure a larger program and manage multiple systems.
+                I learned how object-oriented design improves efficiency and flexibility in game development.
+            </p>
+
+            <p>
+                If I continue improving this project, I would refine enemy behavior and add more gameplay variation.
+                This project reflects my interest in game development and demonstrates my ability to combine programming,
+                system design, and gameplay mechanics.
+            </p>
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 Mulin Zhang</p>
+</footer>
+
+</body>
+</html>
