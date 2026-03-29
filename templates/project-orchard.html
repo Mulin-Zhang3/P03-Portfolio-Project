@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Orchard Visual Design | Mulin Zhang</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Mulin Zhang's Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+
+        <a href="projects.html" class="back-link">← Back to Projects</a>
+
+        <section class="project-header">
+            <h2>Interactive Orchard Visual Design</h2>
+            <p class="project-subtitle">Interactive Visual Design • Eclipse</p>
+        </section>
+
+        <section class="project-image-section">
+            <img src="../images/project3_home.png" alt="Interactive Orchard Visual Design home screen">
+        </section>
+
+        <section class="project-section">
+            <h3>Overview</h3>
+            <p>
+                This project is an interactive visual design created in Eclipse.
+                It explores how different elements can respond to user input and generate visual changes through interaction.
+                Using an orchard theme, the project allows the user to trigger a sequence of actions with different tools and objects,
+                creating a visually guided experience from digging and planting to growth and harvest.
+            </p>
+        </section>
+
+        <section class="project-section">
+            <h3>Process</h3>
+            <p>
+                The project began with planning how different visual elements would interact with one another.
+                In the proposal stage, I identified the main objects in the scene, including the shovel, seed, kettle,
+                fertilizer, plant, and orchard background. Each element was given a specific role so that the project
+                could function as an interactive visual system rather than only a static illustration.
+            </p>
+
+            <div class="project-image-section">
+                <img src="../images/project3_brainstorm1.jpg" alt="Storyboard sketch 1">
+            </div>
+
+            <p>
+                After defining the objects, I created a storyboard to organize the interaction flow.
+                The sequence starts with selecting the shovel and digging the soil, then placing the seed into the ground,
+                watering it, waiting for the sprout to appear, applying fertilizer, and finally allowing the plant to grow fruit.
+                This process helped me think about how each user action would produce a visible response on the screen.
+            </p>
+
+            <div class="project-image-section">
+                <img src="../images/project3_brainstorm2.jpg" alt="Storyboard sketch 2">
+            </div>
+
+            <div class="project-image-section">
+                <img src="../images/project3_brainstorm3.jpg" alt="Storyboard sketch 3">
+            </div>
+
+            <div class="project-image-section">
+                <img src="../images/project3_brainstorm4.jpg" alt="Storyboard sketch 4">
+            </div>
+
+            <p>
+                In the coding stage, I translated these planned interactions into working behaviors in Eclipse.
+                I first implemented the shovel so that it could be selected, follow the mouse, rotate to create a digging effect,
+                and then return to its original position. From there, I extended the project by connecting later actions
+                such as planting, watering, growth, and harvesting. Several parts of the project were revised during testing
+                so that the order of actions, timing, and visual feedback would feel clearer and more consistent.
+            </p>
+
+            <div class="project-image-section">
+                <img src="../images/project3_code.png" alt="Project 3 code screenshot">
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h3>Challenges</h3>
+            <p>
+                One of the main challenges was making the interaction sequence clear to the user.
+                Because the project depends on several actions happening in order, I had to carefully control when each element
+                could respond. Digging needed to happen before planting, watering needed to happen before growth,
+                and fertilizing needed to happen at the correct stage. This required thinking carefully about state changes
+                and how to visually communicate progress.
+            </p>
+
+            <p>
+                Another challenge was turning storyboard ideas into coded visual interaction.
+                Actions that looked simple in sketches, such as selecting tools or moving objects,
+                required more detailed logic in Eclipse to feel responsive and understandable.
+                I had to test and revise how elements followed the mouse, how clicks triggered visual changes,
+                and how plant growth was shown over time.
+            </p>
+
+            <div class="project-image-section">
+                <img src="../images/project3_screenshot1.png" alt="Interactive orchard screenshot 1">
+            </div>
+
+            <div class="project-image-section">
+                <img src="../images/project3_screenshot2.png" alt="Interactive orchard screenshot 2">
+            </div>
+
+            <div class="project-image-section">
+                <img src="../images/project3_screenshot3.png" alt="Interactive orchard screenshot 3">
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h3>Design Decisions</h3>
+            <p>
+                The project was designed around clear visual feedback.
+                Each object has a distinct role, and every interaction creates a noticeable change in the scene.
+                The digging animation, seed placement, watering action, sprouting plant, and fruit growth all help the user
+                understand what is happening and what should happen next.
+            </p>
+
+            <p>
+                I also chose to keep the interaction structure simple and readable.
+                By limiting the number of elements on screen and giving each one a specific purpose,
+                the project remains easy to follow while still demonstrating layered interaction between visual components.
+            </p>
+        </section>
+
+        <section class="project-section">
+            <h3>Reflection</h3>
+            <p>
+                This project helped me better understand how interactive visual systems are built from connected actions,
+                timing, and feedback. I learned that planning the flow of interaction through object definitions and storyboards
+                makes the coding process more manageable and improves the clarity of the final experience.
+            </p>
+
+            <p>
+                If I continue improving this project, I would add smoother transitions, stronger visual polish,
+                and more refined feedback for each interaction. This project reflects my interest in interactive visual design
+                and demonstrates my ability to combine planning, coding, and visual storytelling in one piece.
+            </p>
+        </section>
+
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 Mulin Zhang</p>
+</footer>
+
+</body>
+</html>
