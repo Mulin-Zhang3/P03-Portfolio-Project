@@ -545,3 +545,15 @@ footer {
 .project-section a:hover {
     color: #ffffff;
 }
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
