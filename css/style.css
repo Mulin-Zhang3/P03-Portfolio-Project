@@ -537,3 +537,11 @@ footer {
         gap: 0.4rem;
     }
 }
+.project-section a {
+    color: #f3d9a7;
+    text-decoration: none;
+}
+
+.project-section a:hover {
+    color: #ffffff;
+}
