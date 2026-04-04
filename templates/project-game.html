@@ -30,18 +30,18 @@
 
         <a href="projects.html" class="back-link">← Back to Projects</a>
 
-        <!-- Project Title -->
         <section class="project-header">
             <h2>2D Shooting Game</h2>
-            <p class="project-subtitle">Game Development • Processing</p>
+            <p class="project-subtitle">
+                Game Development • Processing<br>
+                IAT167 – Final Individual Project (Simon Fraser University)
+            </p>
         </section>
 
-        <!-- Main Image -->
         <section class="project-image-section">
             <img src="../images/game_screenshot.png" alt="Game Screenshot">
         </section>
 
-        <!-- Overview -->
         <section class="project-section">
             <h3>Overview</h3>
             <p>
@@ -52,62 +52,72 @@
             </p>
         </section>
 
-        <!-- Process -->
+        <section class="project-section">
+            <h3>Tools</h3>
+            <p>
+                Processing
+            </p>
+        </section>
+
         <section class="project-section">
             <h3>Process</h3>
+
+            <h4>Initial Concept</h4>
             <p>
-                The project was developed directly in Processing, starting with basic player movement and shooting mechanics.
-                At the beginning, the game only included simple enemies moving downward, but the gameplay felt repetitive.
+                This project began as a final individual project for IAT167.
+                I started with the core gameplay system, focusing on player movement and shooting mechanics.
+                The initial version only included simple enemies moving downward, but the experience felt repetitive,
+                which led me to expand the design.
             </p>
 
+            <h4>System Development</h4>
             <p>
-                To improve the experience, I gradually added more systems.
-                Enemies were updated with collision detection and shooting behavior, and a scoring system was introduced.
-                Boss enemies were later added to create a stronger sense of progression and challenge.
+                I introduced additional systems such as enemy attacks, collision detection, pickups, and scoring.
+                Boss battles were later added to create stronger progression and challenge.
+                These changes made the gameplay more dynamic and engaging.
             </p>
 
+            <h4>Code Structure</h4>
             <p>
-                The structure of the code was an important part of the process.
-                I designed a class system using inheritance, where a base class handled shared movement logic.
-                This allowed me to extend it into Player, Enemy, BossEnemy, and Pickup classes,
-                making the code more organized and reusable.
+                As the project grew, code organization became important.
+                I used object-oriented programming with inheritance, creating a base class for shared movement logic,
+                and extending it into Player, Enemy, BossEnemy, and Pickup classes.
+                This made the system more modular and easier to manage.
             </p>
 
+            <h4>Iteration</h4>
             <p>
-                Throughout development, I continuously tested and refined the gameplay.
-                Mechanics such as enemy speed, bullet patterns, and difficulty scaling were adjusted multiple times
-                to improve balance and player experience.
+                I went through multiple rounds of testing and refinement.
+                Early versions were either too simple or too chaotic,
+                so I adjusted enemy speed, bullet behavior, spawn timing, and boss difficulty.
+                These iterations helped improve balance and player experience.
             </p>
 
-            <!-- UML Diagram -->
             <div class="project-image-section">
                 <img src="../images/project2_uml.png" alt="Game UML Diagram">
             </div>
-
         </section>
 
-        <!-- Challenges -->
         <section class="project-section">
             <h3>Challenges</h3>
             <p>
-                One of the main challenges was managing the complexity of the code as more features were added.
-                Handling interactions between players, enemies, bullets, and pickups became increasingly difficult.
+                One of the main challenges was managing code complexity as more mechanics were added.
+                Interactions between the player, enemies, bullets, bosses, and pickups became harder to control over time.
+                This made it necessary to reorganize the code into a clearer system.
             </p>
 
             <p>
-                To solve this, I reorganized the system using inheritance and polymorphism.
-                This allowed different objects to share behavior while maintaining their own functionality,
-                making the code easier to manage and extend.
+                To solve this, I used inheritance and polymorphism to group shared behaviors while keeping each class responsible for its own specific functions.
+                This approach made the project easier to manage and helped reduce repetition in the code.
             </p>
 
             <p>
                 Another challenge was balancing the gameplay.
-                Early versions were either too easy or too chaotic.
+                Some early versions felt too easy, while others became overwhelming too quickly.
                 I adjusted enemy spawn rates, bullet speed, and boss difficulty multiple times
-                to create a more engaging experience.
+                to create a better balance between challenge and playability.
             </p>
 
-            <!-- Gameplay Images -->
             <div class="project-image-section">
                 <img src="../images/project2_boss.png" alt="Boss gameplay">
             </div>
@@ -115,35 +125,34 @@
             <div class="project-image-section">
                 <img src="../images/Game_screenshot2.png" alt="Gameplay screenshot">
             </div>
-
         </section>
 
-        <!-- Design Decisions -->
         <section class="project-section">
             <h3>Design Decisions</h3>
             <p>
-                The game was designed to gradually increase difficulty, allowing players to learn mechanics step by step.
-                Basic enemies introduce the gameplay, while bosses add complexity and challenge.
+                The game was designed to increase in difficulty over time so players could learn the mechanics step by step.
+                Basic enemies introduce the core system, while boss encounters create stronger moments of tension and progression.
             </p>
 
             <p>
-                Pickups such as health and weapon upgrades were added to support the player and introduce strategy.
-                Visual elements such as score and health indicators help players understand their current state.
+                Pickups such as health and weapon upgrades were added to support the player and introduce more strategic decision-making.
+                Visual feedback, including score and health indicators, helps players quickly understand their current state during gameplay.
             </p>
         </section>
 
-        <!-- Reflection -->
         <section class="project-section">
             <h3>Reflection</h3>
             <p>
-                This project helped me understand how to structure a larger program and manage multiple systems.
-                I learned how object-oriented design improves efficiency and flexibility in game development.
+                This project helped me understand how to build and organize a larger game system.
+                I learned that object-oriented design can make development more efficient and flexible,
+                especially when a project includes many interacting mechanics.
             </p>
 
             <p>
-                If I continue improving this project, I would refine enemy behavior and add more gameplay variation.
-                This project reflects my interest in game development and demonstrates my ability to combine programming,
-                system design, and gameplay mechanics.
+                If I continue improving this project, I would refine enemy behavior,
+                add more gameplay variation, and further polish the difficulty curve.
+                This project reflects my interest in game development
+                and demonstrates my ability to combine programming, system design, and gameplay mechanics.
             </p>
         </section>
 
